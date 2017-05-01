@@ -22,6 +22,10 @@ p.page-description {
   color: #14171a;
 }
 
+p.page-description a {
+  color: #657786;
+}
+
 p {
   font-size: 16px;
   font-weight: 100;
