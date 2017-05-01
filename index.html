@@ -7,6 +7,7 @@
     <!--  Styles
     --------------------->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tippy.css">
 
     <!--  Fonts
     --------------------->
@@ -21,7 +22,6 @@
       <p class="page-description">Inspired by <a href="https://twitter.com/twholman">Tim Holman's</a> repo <a href="http://tholman.com/github-corners/">Github Corners</a></p>
 
       <p class="page-description">To change the color you simply change the <code>fill</code> and <code>color</code> values.</p>
-
 
       <!--  My Twitter Account
       -------------------------->
@@ -40,8 +40,11 @@
         </div>
 
         <div class="code version-section">
-          <textarea><a href="https://your-twitter-account" class="twitter-corner" aria-label="View Twitter Account"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#1da1f2; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M249.8 250L0 .2V0h250v250h-.2z"/><path d="M230.09 41.82a37.77 37.77 0 0 1-10.85 3 19 19 0 0 0 8.31-10.45 37.82 37.82 0 0 1-12 4.58 18.91 18.91 0 0 0-32.19 17.23L166 91.49a37.91 37.91 0 0 1-23.46 8.09 38.42 38.42 0 0 1-4.51-.26 53.48 53.48 0 0 0 29 8.49c34.75 0 53.76-28.79 53.76-53.76q0-1.23-.06-2.44a38.39 38.39 0 0 0 9.36-9.79z" fill="currentColor" class="bird-body"/><path d="M145.41 36.63a18.91 18.91 0 0 0 5.85 25.22 18.82 18.82 0 0 1-8.56-2.36v.24a18.91 18.91 0 0 0 15.16 18.53 18.93 18.93 0 0 1-8.53.32A18.91 18.91 0 0 0 167 91.7l17.38-35.33a53.64 53.64 0 0 1-38.97-19.74z" fill="currentColor" class="bird-wing"/></svg></a><style>.twitter-corner:hover .bird-wing{animation: fly .4s linear; transform-origin: right center;}@keyframes fly{0%{transform: translateX(0);}50%{transform: rotateY(-180deg) translateX(-50%) translateY(10%) rotateZ(-50deg);}100%{transform: translateX(0);}}</style></textarea>
+          <textarea id="right-corner"><a href="https://your-twitter-account" class="twitter-corner" aria-label="View Twitter Account"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#1da1f2; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M249.8 250L0 .2V0h250v250h-.2z"/><path d="M230.09 41.82a37.77 37.77 0 0 1-10.85 3 19 19 0 0 0 8.31-10.45 37.82 37.82 0 0 1-12 4.58 18.91 18.91 0 0 0-32.19 17.23L166 91.49a37.91 37.91 0 0 1-23.46 8.09 38.42 38.42 0 0 1-4.51-.26 53.48 53.48 0 0 0 29 8.49c34.75 0 53.76-28.79 53.76-53.76q0-1.23-.06-2.44a38.39 38.39 0 0 0 9.36-9.79z" fill="currentColor" class="bird-body"/><path d="M145.41 36.63a18.91 18.91 0 0 0 5.85 25.22 18.82 18.82 0 0 1-8.56-2.36v.24a18.91 18.91 0 0 0 15.16 18.53 18.93 18.93 0 0 1-8.53.32A18.91 18.91 0 0 0 167 91.7l17.38-35.33a53.64 53.64 0 0 1-38.97-19.74z" fill="currentColor" class="bird-wing"/></svg></a><style>.twitter-corner:hover .bird-wing{animation: fly .4s linear; transform-origin: right center;}@keyframes fly{0%{transform: translateX(0);}50%{transform: rotateY(-180deg) translateX(-50%) translateY(10%) rotateZ(-50deg);}100%{transform: translateX(0);}}</style></textarea>
         </div>
+        <button class="btn" title="Copied!" data-clipboard-action="copy" data-clipboard-target="#right-corner">
+          <img src="https://clipboardjs.com/assets/images/clippy.svg" alt="">
+        </button>
       </div>
 
 
@@ -53,10 +56,22 @@
         </div>
 
         <div class="code version-section">
-          <textarea><a href="https://your-twitter-account" class="twitter-corner" aria-label="View Twitter Account"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#1da1f2; color:#fff; position: absolute; top: 0; border: 0; left: 0;"><path d="M250 .2L.2 250H0V0h250v.2z"/><path d="M125.09 41.82a37.77 37.77 0 0 1-10.85 3 19 19 0 0 0 8.31-10.45 37.82 37.82 0 0 1-12 4.58 18.91 18.91 0 0 0-32.19 17.23L61 91.49a37.91 37.91 0 0 1-23.46 8.09 38.42 38.42 0 0 1-4.54-.26 53.48 53.48 0 0 0 29 8.49c34.75 0 53.76-28.79 53.76-53.76q0-1.23-.06-2.44a38.39 38.39 0 0 0 9.39-9.79z" fill="currentColor" class="bird-body"/><path d="M40.41 36.63a18.91 18.91 0 0 0 5.85 25.22 18.82 18.82 0 0 1-8.56-2.36v.24a18.91 18.91 0 0 0 15.16 18.53 18.93 18.93 0 0 1-8.53.32A18.91 18.91 0 0 0 62 91.7l17.36-35.33a53.64 53.64 0 0 1-38.95-19.74z" fill="currentColor" class="bird-wing"/></svg></a><style>.twitter-corner:hover .bird-wing{animation: fly .4s linear; transform-origin: right center;}@keyframes fly{0%{transform: translateX(0);}50%{transform: rotateY(-180deg) translateX(-50%) translateY(10%) rotateZ(-50deg);}100%{transform: translateX(0);}}</style></textarea>
+          <textarea id="left-corner"><a href="https://your-twitter-account" class="twitter-corner" aria-label="View Twitter Account"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#1da1f2; color:#fff; position: absolute; top: 0; border: 0; left: 0;"><path d="M250 .2L.2 250H0V0h250v.2z"/><path d="M125.09 41.82a37.77 37.77 0 0 1-10.85 3 19 19 0 0 0 8.31-10.45 37.82 37.82 0 0 1-12 4.58 18.91 18.91 0 0 0-32.19 17.23L61 91.49a37.91 37.91 0 0 1-23.46 8.09 38.42 38.42 0 0 1-4.54-.26 53.48 53.48 0 0 0 29 8.49c34.75 0 53.76-28.79 53.76-53.76q0-1.23-.06-2.44a38.39 38.39 0 0 0 9.39-9.79z" fill="currentColor" class="bird-body"/><path d="M40.41 36.63a18.91 18.91 0 0 0 5.85 25.22 18.82 18.82 0 0 1-8.56-2.36v.24a18.91 18.91 0 0 0 15.16 18.53 18.93 18.93 0 0 1-8.53.32A18.91 18.91 0 0 0 62 91.7l17.36-35.33a53.64 53.64 0 0 1-38.95-19.74z" fill="currentColor" class="bird-wing"/></svg></a><style>.twitter-corner:hover .bird-wing{animation: fly .4s linear; transform-origin: right center;}@keyframes fly{0%{transform: translateX(0);}50%{transform: rotateY(-180deg) translateX(-50%) translateY(10%) rotateZ(-50deg);}100%{transform: translateX(0);}}</style></textarea>
         </div>
+        <button class="btn" title="Copied!" data-clipboard-action="copy" data-clipboard-target="#left-corner">
+          <img src="https://clipboardjs.com/assets/images/clippy.svg" alt="">
+        </button>
       </div>
     </div>
 
+    <!--  Clipboard JS
+    --------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js"></script>
+    <script src="js/tippy.js"></script>
+
+    <script type="text/javascript">
+       var clipboard = new Clipboard('.btn');
+       var tooltip = new Tippy('.btn', { trigger: 'click' });
+    </script>
   </body>
 </html>
