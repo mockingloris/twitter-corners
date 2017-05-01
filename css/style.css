@@ -66,8 +66,10 @@ p {
   color: #fff;
   cursor: pointer;
   position: absolute;
-  right: -28px;
-  top: -2px;
+  right: 0;
+  top: 0;
+  margin-right: -28px;
+  margin-top: -2px;
 }
 
 .btn img {
