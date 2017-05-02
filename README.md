@@ -6,6 +6,8 @@ To change the color you simply change the `fill` and `color` values.
 
 ## [Live Demo](https://iraul.github.io/twitter-corners/) 👈
 
+![Here's the page](http://i.imgur.com/FjLL4pf.png)
+
 ### Author
 
 * https://twitter.com/raul_dronca
